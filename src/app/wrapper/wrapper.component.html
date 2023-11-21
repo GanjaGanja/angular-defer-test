@@ -1,0 +1,19 @@
+<h2>Component will be loaded after 5 seconds (in order to see the skeleton):</h2>
+
+@defer (on timer(5000)) {
+  <app-huge />
+} @placeholder (minimum 1s) {
+  <ngx-skeleton-loader [theme]="{height: '200px', background: 'lightblue'}" />
+}
+
+<h3>Scroll down to see one more</h3>
+
+<div style="background-color: whitesmoke; height: 150dvh;"></div>
+
+<h2>Component will be loaded as soon as screen is scrolled down here:</h2>
+
+@defer (on viewport) {
+  <app-huge />
+} @placeholder (minimum 1s) {
+  <ngx-skeleton-loader [theme]="{height: '200px', background: 'lightblue'}" />
+}
