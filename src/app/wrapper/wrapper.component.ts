@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HugeComponent } from '../some-heavy-logic-here/huge.component';
+import { HugeComponent } from '../huge/huge.component';
 import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 @Component({

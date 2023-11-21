@@ -4,7 +4,7 @@ import { NgxSkeletonLoaderModule } from 'ngx-skeleton-loader';
 
 import { AppComponent } from './app.component';
 import { WrapperComponent } from './wrapper/wrapper.component';
-import { HugeComponent } from './some-heavy-logic-here/huge.component';
+import { HugeComponent } from './huge/huge.component';
 
 @NgModule({
   declarations: [AppComponent],
